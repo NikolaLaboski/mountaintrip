@@ -1,0 +1,114 @@
+#header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    position: relative;
+    background: rgba(0,0,0, 0.5) url("home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-blend-mode: overlay;
+    padding: 80px 0 200px;
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+
+.navbar-brand{
+    font-weight: 900;
+    font-size: 1.5em;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1em;
+  }
+
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    background-color: seagreen;
+}
+
+@media (max-width:768px){
+    
+
+    .navbar-dark .navbar-nav .nav-item .nav-link{
+        background-color: seagreen;
+        color: #ffffff;
+    }
+
+
+
+}
+
+.content{
+    color: #fff;
+}
+
+.content1{
+    position: absolute;
+    bottom: -0.5%;
+    color: #fff;
+}
+
+.main:after{   
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    background-image: url("wave.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+
+}
+
+.what{
+    background-color:  #2e8b57;
+    color: #fff;
+
+}
+
+.pick{
+    color: #2e8b57;
+
+}
+
+.choose{
+    color: #fff;
+    background-color: #2e8b57;
+}
+
+.b{
+    list-style-type: none;
+}
+
+.footer .fut a .fa {
+    font-size: 50px;
+  }
