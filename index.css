@@ -3,7 +3,7 @@
     z-index: 10;
     width: 100%;
 }
-body{
+html, body{
     overflow-x: hidden;
   }
   
@@ -15,6 +15,7 @@ body{
 
 .container-fluid{
     width: 100%;
+    overflow-x: hidden;
 }
 
 .main{
